@@ -1,0 +1,114 @@
+body{
+  font-family: cursive;
+}
+.bg-primray{
+
+  background-color: rgb(241, 232, 94)!important;
+    position: sticky;
+    top: 0;
+}
+.ul :hover{
+border-radius: 10% !important;
+color: rgb(255, 0, 0);
+}
+.nav{
+    border-radius: 20%;
+}
+.nav-item :hover{
+  background-color: rgb(255, 0, 0);
+
+}
+.col3{
+  height: 200px;
+  box-sizing: border-box;
+}
+#a1{
+display: inline;
+margin-left: 358px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fdbd44;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 98px;
+  text-decoration: none;
+}
+
+li a:hover {
+transition: 3s;
+animation: 3s;
+color: aqua;
+}
+#nav2{
+  margin-right: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+#card {
+  box-shadow: 0 8px 10px 0 rgba(255, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: inline-block;
+  
+}
+#card:hover{
+box-shadow: 20px;
+cursor: pointer;
+border: 2px solid #ff0000;
+transition: 1s;
+border-radius: 20%;
+}
+  h1{
+    margin-left: 535px;
+  }
+  #imga{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
