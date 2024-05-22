@@ -46,11 +46,6 @@ li a {
   text-decoration: none;
 }
 
-/* li a:hover {
-transition: 3s;
-animation: 3s;
-color: aqua;
-} */
 #nav2{
   margin-right: 50px;
 }
@@ -118,4 +113,7 @@ border-radius: 20%;
     transition: 3s;
     animation: 3s;
     color: rgb(255, 0, 0) !important;
+  }
+  img{
+    display: inline !important;
   }
